@@ -24,11 +24,11 @@ bidding platforms. Features:
  - Allegro.pl
 
 %description -l pl
-MyAuction pozwala Ci na ogladanie ceny i pozosta³ego czasu aukcji
-internetowej. Mo¿liwo¶ci:
+MyAuction pozwala na ogl±danie ceny i pozosta³ego czasu aukcji
+internetowych. Mo¿liwo¶ci:
 - Konfiguracja przez interaktywne menu GUI (nie jest wymagane rêczne
-  edytowanie skryptów)
-- Mo¿liwe ró¿ne platformy:
+  modyfikowanie skryptów)
+- Obs³ugiwane ró¿ne platformy:
  - Ebay
  - Allegro.pl
 
@@ -50,4 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/themes/superkaramba/%{theme}/
+%{_datadir}/themes/superkaramba/%{theme}
