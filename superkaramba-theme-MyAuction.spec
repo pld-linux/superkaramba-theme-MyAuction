@@ -9,7 +9,7 @@ License:	GPL
 Group:		Themes
 Source0:	http://kde-look.org/content/files/15347-%{theme}.tar.gz
 # Source0-md5:	a2cdfff3fae7edec931b18aeb621f279
-Patch0:	myauction.py.patch
+Patch0:		myauction.py.patch
 URL:		http://www.kde-look.org/content/show.php?content=13166
 Requires:	superkaramba
 BuildArch:	noarch
