@@ -35,10 +35,11 @@ internetowej. Mo¿liwo¶ci:
 %prep
 %setup -q -c
 %patch0 -p0
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/%{theme}
 install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/%{theme}/{dev,img}
+
 install %{theme}/dev/*.py $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/%{theme}/dev
 install %{theme}/img/*.* $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/%{theme}/img
 install %{theme}/*.p* $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/%{theme}
