@@ -1,0 +1,13 @@
+--- MyAuction/myauction.py1	2005-02-20 00:15:00.000000000 +0100
++++ MyAuction/myauction.py	2005-02-20 00:33:58.083312568 +0100
+@@ -538,8 +538,8 @@
+ 		lc_loading = 'Wczytywania...'
+ 		lc_title_pattern = '<title>(.*?)<'
+ 		#lc_price_pattern = 'Kup Teraz</span>:</td><td class=it-td valign=top><b>(.*?)</b>'
+-		lc_price_pattern = 'Aktualna cena:</td>\\W*?<td class=it-td valign=top><b>\\W*?(.*?)</b>'
+-		lc_duration_pattern = 'Do ko.ca:</td>\\W*?<td class=it-td valign=top><b>(.*?)</b>'
++		lc_price_pattern = 'Aktualna cena:</td>\\W*?<td class=it-td id=dark-row-next valign=top><b>\\W*?(.*?)</b>'
++		lc_duration_pattern = 'Do ko.ca:</td>\\W*?<td class=it-td  valign=top><b>(.*?)</b>'
+ 		lc_end_pattern = 'aokdasdasd- not implemented yet -asidjisjfi'
+ 		lc_menu_addauction = 'Dodaj aukcje'
+ 		lc_menu_removeauction = 'Usun aukcje'
