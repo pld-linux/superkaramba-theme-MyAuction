@@ -1,7 +1,7 @@
 %define		theme	MyAuction
 
 Summary:	superkaramba - MyAuction theme
-Summary(pl.UTF-8):   superkaramba - motyw MyAuction
+Summary(pl.UTF-8):	superkaramba - motyw MyAuction
 Name:		superkaramba-theme-%{theme}
 Version:	2.6
 Release:        0.beta.2
