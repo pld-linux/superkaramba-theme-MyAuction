@@ -1,7 +1,7 @@
 %define		theme	MyAuction
 
 Summary:	superkaramba - MyAuction theme
-Summary(pl):	superkaramba - motyw MyAuction
+Summary(pl.UTF-8):   superkaramba - motyw MyAuction
 Name:		superkaramba-theme-%{theme}
 Version:	2.6
 Release:        0.beta.2
@@ -23,12 +23,12 @@ bidding platforms. Features:
  - Ebay
  - Allegro.pl
 
-%description -l pl
-MyAuction pozwala na ogl±danie ceny i pozosta³ego czasu aukcji
-internetowych. Mo¿liwo¶ci:
-- Konfiguracja przez interaktywne menu GUI (nie jest wymagane rêczne
-  modyfikowanie skryptów)
-- Obs³ugiwane ró¿ne platformy:
+%description -l pl.UTF-8
+MyAuction pozwala na oglÄ…danie ceny i pozostaÅ‚ego czasu aukcji
+internetowych. MoÅ¼liwoÅ›ci:
+- Konfiguracja przez interaktywne menu GUI (nie jest wymagane rÄ™czne
+  modyfikowanie skryptÃ³w)
+- ObsÅ‚ugiwane rÃ³Å¼ne platformy:
  - Ebay
  - Allegro.pl
 
